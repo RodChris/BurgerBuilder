@@ -50,7 +50,17 @@ import classes from './ContactData.css'
                     placeHolder: 'Phone Number'
                 },
                 value: ''
-            },                                  
+            },
+            deliveryMethod: {
+                elementType: 'select',
+                elementConfig: {
+                    options: [
+                        {value: 'fastest', displayValue: 'Fastest'},
+                        {value: 'cheapest', displayValue: 'Cheapest'}
+                    ]
+                },
+                value: ''
+            }                                  
        },
        loading: false
     }
