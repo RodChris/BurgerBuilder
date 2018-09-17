@@ -88,6 +88,7 @@ import classes from './ContactData.css'
                 },
                 formIsValid: false,
                 value: '',
+                validation: {},
                 valid: true
             }                                  
        },
